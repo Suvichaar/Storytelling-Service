@@ -1,0 +1,36 @@
+# Azure OpenAI (Text Generation)
+[azure_api]
+AZURE_OPENAI_ENDPOINT = "https://your-endpoint.cognitiveservices.azure.com"
+AZURE_OPENAI_API_KEY = "replace-with-api-key"
+AZURE_OPENAI_DEPLOYMENT = "gpt-5-chat"
+AZURE_OPENAI_API_VERSION = "2025-01-01-preview"
+
+# Azure DALL·E (Image Generation)
+[dalle]
+DALL_E_ENDPOINT = "https://your-dalle-endpoint"
+DALL_E_KEY = "replace-with-dalle-key"
+
+# Azure Speech Services (Text-to-Speech)
+[azure_speech]
+AZURE_SPEECH_KEY = "replace-with-speech-key"
+AZURE_SPEECH_REGION = "eastus"
+VOICE_NAME = "hi-IN-AaravNeural"
+
+# Azure Document Intelligence (OCR)
+[azure_di]
+AZURE_DI_ENDPOINT = "https://your-document-intelligence-endpoint"
+AZURE_DI_KEY = "replace-with-di-key"
+
+# AWS S3 (Media Storage)
+[aws]
+AWS_ACCESS_KEY = "replace-with-aws-access-key"
+AWS_SECRET_KEY = "replace-with-aws-secret-key"
+AWS_REGION = "ap-south-1"
+AWS_BUCKET = "suvichaarapp"
+S3_PREFIX = "media"
+HTML_S3_PREFIX = ""
+CDN_PREFIX_MEDIA = "https://media.suvichaar.org/"
+CDN_HTML_BASE = "https://stories.suvichaar.org/"
+CDN_BASE = "https://cdn.suvichaar.org/"
+DEFAULT_ERROR_IMAGE = "https://media.suvichaar.org/default-error.jpg"
+

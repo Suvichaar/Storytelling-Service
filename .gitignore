@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.pdm/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# IDE settings
+.idea/
+.vscode/
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.log
+
+# Coverage / reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Local configs / secrets
+config/settings.toml
+.env
+.env.*
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
